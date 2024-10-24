@@ -10,10 +10,10 @@ import java.util.Scanner;
 public class ConversionLogic {
 
     public static void performConversion(Scanner read) {
-        String output = null;
-        String base = null;
-        String target = null;
-        double amount = 0;
+        String output;
+        String base;
+        String target;
+        double amount;
 
         ArrayList<String[]> currencies = CurrencyUtils.getCurrencies();
         System.out.println("Escriba el codigo de la moneda origen del siguiente listado: (ej. CLP) ");
